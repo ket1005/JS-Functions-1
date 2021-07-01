@@ -1,4 +1,4 @@
- //1 
+/*   
 let Kelvin =293;
 let Fahrenheit;
 
@@ -8,24 +8,24 @@ console.log(Fahrenheit);
 
 Fahrenheit = kelvinToFahrenheit(Kelvin);
 console.log(Fahrenheit);
+*/
 
-//2
-let myAge = 25; //my age
+/*let myAge = 25; //my age
 let earlyYears = 2; // early years
 humanAgeInDogYears = myAge => Math.floor((myAge -2)*4 + (earlyYears*=10.5));
 let myName1 ='Kate';
 let myName = myName1.toLowerCase();
 myAgeInDogYears = humanAgeInDogYears();
-console.log(`My name is ${myName} .I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+console.log(`My name is ${myName} .I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);*/
 
-//3
+/*
 let userName = prompt('Please enter your name');
 userName==''?console.log('Hello,'+ userName):console.log('Hello!');
 let userQuestion = prompt('Please enter your question');
 console.log(userQuestion);
-
-answerMyQuestion = (userName,userQuestion) =>{    
 let randomNumber = Math.floor(Math.random() * 8)+ 1;
+
+answerMyQuestion = (userName,randomNumber) =>{    
 let eightBall = '';
      if (randomNumber==1) {        
         eightBall='It is certain';
@@ -47,12 +47,12 @@ let eightBall = '';
             eightBall='Invalid item';
           
       }
-    
+    console.log(eightBall);
 }
-answerMyQuestion(userName,userQuestion);
+answerMyQuestion(userName,randomNumber);
+*/
 
-
-//4
+/*
 let raceNumber = Math.floor(Math.random()*1001);
 let runnerRegistred = false;
 let runnersAge = 18;
@@ -73,3 +73,4 @@ raceTime = (runnersAge,runnerRegistred) =>{
 
 }
 raceTime(18, false);
+*/
